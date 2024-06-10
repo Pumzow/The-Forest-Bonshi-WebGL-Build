@@ -96,9 +96,10 @@
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         container.style.width = "100%";
-        container.style.height = "auto";
-        canvas.style.width = "100%";
-        canvas.style.height = "auto";
+        container.style.height = "100%";
+        container.style.aspect-ratio = "16/9";
+        canvas.style.height = "100%";
+        canvas.style.aspect-ratio = "16/9";
       }
 
       canvas.style.background = "url('" + buildUrl + "/Build.jpg') center / cover";
